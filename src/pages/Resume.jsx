@@ -10,7 +10,7 @@ const Resume = () => {
         <div className="mb-20">
           <div className="flex flex-col items-center text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
-              My Resume
+              Resume
             </h1>
             <p className="text-xl text-gray-600">
             A comprehensive overview of my professional experience and skills

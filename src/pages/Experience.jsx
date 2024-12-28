@@ -80,7 +80,7 @@ const Experience = () => {
     <div className="min-h-screen bg-white px-6 md:px-20 py-24">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-slate-900 text-center mb-6">
-          My Experiences
+          Experience
         </h1>
         <p className="text-lg text-slate-600 text-center mb-16 max-w-2xl mx-auto">
         Explore how each experience has contributed to my development and prepared me for the next steps in my career!
