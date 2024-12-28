@@ -23,7 +23,7 @@ const Resume = () => {
               <a
                 href= {FileDownload}
                 download ="Sannidhi_Resume.pdf"
-                className="inline-block px-4 py-2 bg-pink-600 text-white font-medium rounded-lg hover:bg-pink-800">
+                className="inline-block px-4 py-2 bg-pink-500 text-white font-medium rounded-lg hover:bg-pink-800">
                 Download Resume (PDF)
               </a>
             </div>
