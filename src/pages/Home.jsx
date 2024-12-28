@@ -22,10 +22,10 @@ function Home() {
   ];
 
   return (
-    <section className="min-h-screen flex items-center justify-center">
+    <section className="min-h-screen flex items-center bg-white justify-center">
       <div className="max-w-5xl mx-auto p-8">
-        {/* Hero Section */}
-        <div className="text-center mb-16">
+  
+        <div className="text-center mb-12">
 
           
           <h1 className="text-slate-900 font-extrabold text-5xl tracking-tight text-center mb-8">
@@ -33,14 +33,17 @@ function Home() {
             <span className="text-pink-500">Work Term Report!</span>
           </h1>
   
-          <p className="mt-6 text-xl text-slate-600 text-center">
+          <p className="mt-6 text-lg text-slate-600 text-center">
             Where I share insights, experiences, and accomplishments from my work terms as a final-year computer science student.
           </p>
+  
+
+
 
           <div className="mt-10 flex items-center justify-center gap-4">
             <Link 
               to="/about"
-              className="inline-flex items-center gap-2 bg-black/80 text-white px-8 py-3 rounded-lg hover:bg-pink-500 transition-colors text-lg"
+              className="inline-flex items-center gap-2 bg-black/90 text-white px-8 py-3 rounded-lg hover:bg-pink-500 transition-colors text-lg"
             >
               Learn More About Me
               <ArrowRight className="h-5 w-5" />
@@ -48,17 +51,17 @@ function Home() {
           </div>
         </div>
 
-        {/* Features Grid */}
+    
         <div className="grid md:grid-cols-3 gap-8 mt-16">
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="p-6 rounded-xl bg-white/50 border border-slate-100 group"
+              className="bg-[#FCE4EC] backdrop-blur-sm border border-slate-100 rounded-xl p-6"
             >
-              <div className="w-12 h-12 rounded-lg bg-pink-100 flex items-center justify-center mb-4 text-pink-600">
+              <div className="w-12 h-12 rounded-lg bg-white flex items-center justify-center mb-4 text-pink-600">
                 {feature.icon}
               </div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+              <h3 className="text-lg font-semibold text-black mb-2">
                 {feature.title}
               </h3>
               <p className="text-slate-600">
@@ -67,6 +70,8 @@ function Home() {
             </div>
           ))}
         </div>
+
+
       </div>
     </section>
   );
