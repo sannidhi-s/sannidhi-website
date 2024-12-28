@@ -56,7 +56,7 @@ function Home() {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="bg-[#FCE4EC] backdrop-blur-sm border border-slate-100 rounded-xl p-6"
+              className="backdrop-blur-sm border border-pink-100 rounded-xl p-6"
             >
               <div className="w-12 h-12 rounded-lg bg-white flex items-center justify-center mb-4 text-pink-600">
                 {feature.icon}
